@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3 -c \"import numpy, scipy, matplotlib, sklearn, pandas; print\\('all packages ready'\\)\")",
+      "Bash(python3 output/run_ml_pipeline.py)",
+      "Bash(python3 output/run_real_pipeline.py)",
+      "Bash(cp '/Users/thanmai29/project'\\\\''s/wind-simulator/output/real_figures/*.png' '/Users/thanmai29/project'\\\\''s/wind-simulator/frontend/public/results/')",
+      "Bash(cp '/Users/thanmai29/project'\\\\''s/wind-simulator/output/real_ml_results/*.png' '/Users/thanmai29/project'\\\\''s/wind-simulator/frontend/public/results/')",
+      "Bash(npm run:*)",
+      "Bash(mkdir -p figures reports data)",
+      "Bash(cp real_figures/01_terrain_elevation_REAL.png  figures/01_terrain_elevation.png)",
+      "Bash(cp real_figures/02_wind_field_REAL.png          figures/02_wind_field.png)",
+      "Bash(cp real_figures/03_power_potential_REAL.png     figures/03_power_potential.png)",
+      "Bash(cp real_figures/04_cp_curve_REAL.png            figures/04_cp_curve.png)",
+      "Bash(open \"/Users/thanmai29/project's/wind-simulator/output/index.html\")",
+      "Bash(pandoc /Users/thanmai29/Downloads/BlrProject.docx -o /tmp/BlrProject.md)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

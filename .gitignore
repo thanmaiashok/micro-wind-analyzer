@@ -1,0 +1,46 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs & PIDs
+backend/backend.log
+backend/backend.pid
+frontend/frontend.log
+frontend/frontend.pid
+*.log
+*.pid
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output / generated
+output/
+graphify-out/
+
+# Pyright
+pyrightconfig.json
+backend/pyrightconfig.json
