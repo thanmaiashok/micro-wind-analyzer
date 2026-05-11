@@ -44,3 +44,6 @@ graphify-out/
 # Pyright
 pyrightconfig.json
 backend/pyrightconfig.json
+
+# Claude Code
+.claude/
