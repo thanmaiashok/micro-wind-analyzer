@@ -6,21 +6,21 @@
 
 <p align="center"><img src="docs/px3/features.svg" width="100%" alt="Key features"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="overview"></a>
 <h2><img src="docs/px3/h2-overview.svg" width="100%" alt="Overview"/></h2>
 
 <p align="center"><img src="docs/px3/t-01.svg" width="100%" alt="This project provides a comprehensive platform for: Simulation: Real-time wind turbine farm simulation with physics-based power calculations Visualization: 3D terrain mapping, wind flow visualization, and turbine placement Optimization: Intelligent turbine placement algorithms to maximize energy production Analysis: Performance metrics, power generation analysis, and efficiency tracking"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="project-structure"></a>
 <h2><img src="docs/px3/h2-project-structure.svg" width="100%" alt="Project Structure"/></h2>
 
 <p align="center"><img src="docs/px3/c-01.svg" width="100%" alt="code: wind-simulator/ ├── backend/ # Python FastAPI backend │ ├── simulation/ # Physics simulation modules │ │ ├── wind.py # Wind field generation │ │ ├── terrain.py "/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="features"></a>
 <h2><img src="docs/px3/h2-features.svg" width="100%" alt="Features"/></h2>
@@ -35,7 +35,7 @@
 
 <p align="center"><img src="docs/px3/t-03.svg" width="100%" alt="Interactive Visualization: Terrain heatmap with elevation coloring Wind flow visualization with directional arrows Turbine placement markers Control Panel: Start/stop/pause/resume simulation Configure number of turbines and wind speed Real-time status updates Performance Dashboard: Total power generation output Per-turbine power analysis Wind speed statistics Performance charts using Recharts Responsive Design: Works on desktop and tablet devices"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="technology-stack"></a>
 <h2><img src="docs/px3/h2-technology-stack.svg" width="100%" alt="Technology Stack"/></h2>
@@ -50,7 +50,7 @@
 
 <p align="center"><img src="docs/px3/t-05.svg" width="100%" alt="Framework: React 18 Build Tool: Vite Visualization: Canvas 2D (Terrain &amp; Wind), Three.js ready Charts: Recharts HTTP Client: Axios"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="quick-start"></a>
 <h2><img src="docs/px3/h2-quick-start.svg" width="100%" alt="Quick Start"/></h2>
@@ -61,7 +61,7 @@
 
 <p align="center"><img src="docs/px3/t-07.svg" width="100%" alt="Service | URL Frontend | http://localhost:5173 Backend | http://localhost:8000 API Docs | http://localhost:8000/docs"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="getting-started-manual"></a>
 <h2><img src="docs/px3/h2-getting-started-manual.svg" width="100%" alt="Getting Started (Manual)"/></h2>
@@ -109,7 +109,7 @@
 
 <p align="center"><img src="docs/px3/t-17.svg" width="100%" alt="The application will be available at http://localhost:5173"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="api-endpoints"></a>
 <h2><img src="docs/px3/h2-api-endpoints.svg" width="100%" alt="API Endpoints"/></h2>
@@ -134,14 +134,14 @@
 
 <p align="center"><img src="docs/px3/t-21.svg" width="100%" alt="WS /ws/simulation - Real-time simulation updates"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="simulation-parameters"></a>
 <h2><img src="docs/px3/h2-simulation-parameters.svg" width="100%" alt="Simulation Parameters"/></h2>
 
 <p align="center"><img src="docs/px3/t-22.svg" width="100%" alt="Default parameters can be customized: grid_size: Size of simulation grid (default: 100) num_turbines: Number of turbines to place (default: 10) base_wind_speed: Starting wind speed in m/s (default: 10.0) turbulence: Turbulence factor 0-1 (default: 0.2) rotor_diameter: Turbine rotor diameter in meters (default: 80.0)"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="physics-model"></a>
 <h2><img src="docs/px3/h2-physics-model.svg" width="100%" alt="Physics Model"/></h2>
@@ -158,55 +158,55 @@
 
 <p align="center"><img src="docs/px3/t-25.svg" width="100%" alt="$$F = 0.5 \times \rho \times A \times v^2 \times C_t$$ Where Ct is the thrust coefficient."/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="usage-example"></a>
 <h2><img src="docs/px3/h2-usage-example.svg" width="100%" alt="Usage Example"/></h2>
 
 <p align="center"><img src="docs/px3/t-26.svg" width="100%" alt="Start the Application: Run both backend and frontend servers Open http://localhost:5173 in browser Configure Simulation: Set desired number of turbines (1-50) Adjust base wind speed (1-25 m/s) Run Simulation: Click &quot;Start Simulation&quot; Watch turbines being placed optimally Monitor power generation in real-time Analyze Results: View terrain and wind visualization Check individual turbine performance Review power output metrics"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="performance-optimization"></a>
 <h2><img src="docs/px3/h2-performance-optimization.svg" width="100%" alt="Performance Optimization"/></h2>
 
 <p align="center"><img src="docs/px3/t-27.svg" width="100%" alt="Greedy placement algorithm: O(n x m) where n=turbines, m=grid cells Real-time updates at 60 FPS WebSocket for efficient data streaming Terrain/wind caching to reduce computation"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="known-limitations"></a>
 <h2><img src="docs/px3/h2-known-limitations.svg" width="100%" alt="Known Limitations"/></h2>
 
 <p align="center"><img src="docs/px3/t-28.svg" width="100%" alt="2D visualization (canvas-based) - can be enhanced with Three.js Simplified wake effect modeling Single optimization algorithm (could add genetic algorithm option) Basic turbulence model"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="future-enhancements"></a>
 <h2><img src="docs/px3/h2-future-enhancements.svg" width="100%" alt="Future Enhancements"/></h2>
 
 <p align="center"><img src="docs/px3/t-29.svg" width="100%" alt="[ ] Full 3D visualization with Three.js [ ] Advanced wake effect modeling [ ] Genetic algorithm optimization [ ] Historical data storage and replay [ ] Multiple wind farm scenarios [ ] Advanced terrain features (obstacles, forests) [ ] Real weather data integration [ ] Export results to PDF/CSV"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="contributing"></a>
 <h2><img src="docs/px3/h2-contributing.svg" width="100%" alt="Contributing"/></h2>
 
 <p align="center"><img src="docs/px3/t-30.svg" width="100%" alt="This is an open-source project. Contributions are welcome! Please: Fork the repository Create a feature branch Commit your changes Push to the branch Create a Pull Request"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="license"></a>
 <h2><img src="docs/px3/h2-license.svg" width="100%" alt="License"/></h2>
 
 <p align="center"><img src="docs/px3/t-31.svg" width="100%" alt="MIT License - Feel free to use this project for educational and commercial purposes."/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <a id="contact"></a>
 <h2><img src="docs/px3/h2-contact.svg" width="100%" alt="Contact"/></h2>
 
 <p align="center"><img src="docs/px3/t-32.svg" width="100%" alt="For questions or suggestions, please open an issue on the repository. Built with for renewable energy enthusiasts"/></p>
 
-<p align="center"><img src="docs/px3/gap.svg" width="1" height="16" alt=""/></p>
+<p align="center"><img src="docs/px3/divider.svg" width="100%" alt=""/></p>
 
 <p align="center"><a href="https://github.com/thanmaiashok"><img src="docs/px3/footer.svg" width="100%" alt="Built by Thanmai A, founder of FoxynAI"/></a></p>
