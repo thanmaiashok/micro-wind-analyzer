@@ -1,5 +1,8 @@
 # Wind Turbine Simulator
 
+<p align="center"><img src="docs/flow.svg" alt="Animated Wind Turbine Sim pipeline: Terrain → Wind → Physics → Optimize → Stream → Visualize" width="100%"/></p>
+<p align="center"><sub>10-second tour: Terrain → Wind → Physics → Optimize → Stream → Visualize</sub></p>
+
 An interactive web application for simulating and optimizing wind turbine placement using computational physics and machine learning optimization techniques.
 
 ## Overview
