@@ -93,15 +93,15 @@ wind-simulator/
 
 <p align="center"><img src="docs/mc/t-06.svg" width="100%" alt="Prerequisites: Python 3.8+, Node.js 16+"/></p>
 
-<p align="center"><img src="docs/mc/c-02.svg" width="100%" alt="code: # 1. Clone and enter the repo git clone &lt;your-repo-url&gt; cd wind-simulator # 2. One-time setup (installs all deps) chmod +x setup.sh start.sh kill.sh ./setup.sh "/></p>
+<p align="center"><img src="docs/mc/c-02.svg" width="100%" alt="code: # 1. Clone and enter the repo git clone https://github.com/thanmaiashok/micro-wind-analyzer.git cd micro-wind-analyzer # 2. One-time setup (installs all deps) chmod +x setup.sh start.sh kill.sh ./setup.sh "/></p>
 
 <details>
 <summary>Copy as text</summary>
 
 ```bash
 # 1. Clone and enter the repo
-git clone <your-repo-url>
-cd wind-simulator
+git clone https://github.com/thanmaiashok/micro-wind-analyzer.git
+cd micro-wind-analyzer
 
 # 2. One-time setup (installs all deps)
 chmod +x setup.sh start.sh kill.sh
