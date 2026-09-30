@@ -1,4 +1,5 @@
 <p align="center"><img src="docs/flow.svg" alt="Animated Wind Turbine Sim pipeline: Terrain → Wind → Physics → Optimize → Stream → Visualize" width="100%"/></p>
+
 <p align="center"><sub>10-second tour: Terrain → Wind → Physics → Optimize → Stream → Visualize</sub></p>
 
 <p align="center"><img src="docs/mc/intro.svg" width="100%" alt="An interactive web app for simulating and optimizing wind turbine placement using computational physics and optimization."/></p>
@@ -63,6 +64,7 @@ wind-simulator/
 
 <a id="backend-features"></a>
 <h3><img src="docs/mc/h3-backend-features.svg" width="100%" alt="Backend Features"/></h3>
+
 - **Wind Generation**: Realistic wind speed and direction field generation with turbulence
 - **Terrain Mapping**: Procedural terrain generation with elevation and slope calculations
 - **Physics Engine**: 
@@ -76,6 +78,7 @@ wind-simulator/
 
 <a id="frontend-features"></a>
 <h3><img src="docs/mc/h3-frontend-features.svg" width="100%" alt="Frontend Features"/></h3>
+
 - **Interactive Visualization**: 
   - Terrain heatmap with elevation coloring
   - Wind flow visualization with directional arrows
@@ -96,6 +99,7 @@ wind-simulator/
 
 <a id="backend"></a>
 <h3><img src="docs/mc/h3-backend.svg" width="100%" alt="Backend"/></h3>
+
 - **Framework**: FastAPI (Python)
 - **Server**: Uvicorn
 - **Libraries**: NumPy, SciPy, Pydantic
@@ -103,6 +107,7 @@ wind-simulator/
 
 <a id="frontend"></a>
 <h3><img src="docs/mc/h3-frontend.svg" width="100%" alt="Frontend"/></h3>
+
 - **Framework**: React 18
 - **Build Tool**: Vite
 - **Visualization**: Canvas 2D (Terrain & Wind), Three.js ready
@@ -141,6 +146,7 @@ chmod +x setup.sh start.sh kill.sh
 
 <a id="prerequisites"></a>
 <h3><img src="docs/mc/h3-prerequisites.svg" width="100%" alt="Prerequisites"/></h3>
+
 - Python 3.8+
 - Node.js 16+
 - npm or yarn
@@ -198,11 +204,13 @@ The application will be available at `http://localhost:5173`
 
 <a id="health--status"></a>
 <h3><img src="docs/mc/h3-health-status.svg" width="100%" alt="Health &amp; Status"/></h3>
+
 - `GET /health` - Health check
 - `GET /status` - Current simulation status
 
 <a id="simulation-control"></a>
 <h3><img src="docs/mc/h3-simulation-control.svg" width="100%" alt="Simulation Control"/></h3>
+
 - `POST /simulation/start` - Start simulation with parameters
 - `POST /simulation/stop` - Stop simulation
 - `POST /simulation/pause` - Pause simulation
@@ -211,6 +219,7 @@ The application will be available at `http://localhost:5173`
 
 <a id="data-retrieval"></a>
 <h3><img src="docs/mc/h3-data-retrieval.svg" width="100%" alt="Data Retrieval"/></h3>
+
 - `GET /terrain` - Get terrain elevation map
 - `GET /wind` - Get wind field data
 - `GET /turbines` - Get turbine data and performance
@@ -218,6 +227,7 @@ The application will be available at `http://localhost:5173`
 
 <a id="websocket"></a>
 <h3><img src="docs/mc/h3-websocket.svg" width="100%" alt="WebSocket"/></h3>
+
 - `WS /ws/simulation` - Real-time simulation updates
 
 <a id="simulation-parameters"></a>
@@ -237,6 +247,7 @@ The simulation uses the following physics models:
 
 <a id="power-calculation"></a>
 <h3><img src="docs/mc/h3-power-calculation.svg" width="100%" alt="Power Calculation"/></h3>
+
 $$P = 0.5 \times \rho \times A \times v^3 \times C_p \times \eta$$
 
 Where:
@@ -248,6 +259,7 @@ Where:
 
 <a id="thrust-force"></a>
 <h3><img src="docs/mc/h3-thrust-force.svg" width="100%" alt="Thrust Force"/></h3>
+
 $$F = 0.5 \times \rho \times A \times v^2 \times C_t$$
 
 Where Ct is the thrust coefficient.
