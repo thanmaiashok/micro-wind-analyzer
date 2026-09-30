@@ -14,10 +14,7 @@
 <a id="project-structure"></a>
 <h2><img src="docs/px3/h2-project-structure.svg" width="100%" alt="Project Structure"/></h2>
 
-<p align="center"><img src="docs/px3/c-01.svg" width="100%" alt="code: wind-simulator/ ├── backend/ # Python FastAPI backend │ ├── simulation/ # Physics simulation modules │ │ ├── wind.py # Wind field generation │ │ ├── terrain.py "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-code.svg" width="100%" alt="code code"/></p>
 
 ```
 wind-simulator/
@@ -60,8 +57,6 @@ wind-simulator/
 └── README.md                  # This file
 ```
 
-</details>
-
 <a id="features"></a>
 <h2><img src="docs/px3/h2-features.svg" width="100%" alt="Features"/></h2>
 
@@ -93,10 +88,7 @@ wind-simulator/
 
 <p align="center"><img src="docs/px3/t-06.svg" width="100%" alt="Prerequisites: Python 3.8+, Node.js 16+"/></p>
 
-<p align="center"><img src="docs/px3/c-02.svg" width="100%" alt="code: # 1. Clone and enter the repo git clone https://github.com/thanmaiashok/micro-wind-analyzer.git cd micro-wind-analyzer # 2. One-time setup (installs all deps) chmod +x setup.sh start.sh kill.sh ./setup.sh "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 # 1. Clone and enter the repo
@@ -114,8 +106,6 @@ chmod +x setup.sh start.sh kill.sh
 ./kill.sh
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-07.svg" width="100%" alt="Service | URL Frontend | http://localhost:5173 Backend | http://localhost:8000 API Docs | http://localhost:8000/docs"/></p>
 
 <a id="getting-started-manual"></a>
@@ -131,56 +121,36 @@ chmod +x setup.sh start.sh kill.sh
 
 <p align="center"><img src="docs/px3/t-09.svg" width="100%" alt="Navigate to the backend directory:"/></p>
 
-<p align="center"><img src="docs/px3/c-03.svg" width="100%" alt="code: cd backend "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 cd backend
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-10.svg" width="100%" alt="Create a Python virtual environment:"/></p>
 
-<p align="center"><img src="docs/px3/c-04.svg" width="100%" alt="code: python3 -m venv ../.venv source ../.venv/bin/activate "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 python3 -m venv ../.venv
 source ../.venv/bin/activate
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-11.svg" width="100%" alt="Install dependencies:"/></p>
 
-<p align="center"><img src="docs/px3/c-05.svg" width="100%" alt="code: pip install -r requirements.txt "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 pip install -r requirements.txt
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-12.svg" width="100%" alt="Run the server:"/></p>
 
-<p align="center"><img src="docs/px3/c-06.svg" width="100%" alt="code: python main.py "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 python main.py
 ```
-
-</details>
 
 <p align="center"><img src="docs/px3/t-13.svg" width="100%" alt="The API will be available at http://localhost:8000 API Documentation: http://localhost:8000/docs"/></p>
 
@@ -189,42 +159,27 @@ python main.py
 
 <p align="center"><img src="docs/px3/t-14.svg" width="100%" alt="Navigate to the frontend directory:"/></p>
 
-<p align="center"><img src="docs/px3/c-07.svg" width="100%" alt="code: cd frontend "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 cd frontend
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-15.svg" width="100%" alt="Install dependencies:"/></p>
 
-<p align="center"><img src="docs/px3/c-08.svg" width="100%" alt="code: npm install "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 npm install
 ```
 
-</details>
-
 <p align="center"><img src="docs/px3/t-16.svg" width="100%" alt="Run the development server:"/></p>
 
-<p align="center"><img src="docs/px3/c-09.svg" width="100%" alt="code: npm run dev "/></p>
-
-<details>
-<summary><img src="docs/px3/copy-btn.svg" height="40" alt="Copy code: click to open"/></summary>
+<p align="center"><img src="docs/px3/bar-bash.svg" width="100%" alt="bash code"/></p>
 
 ```bash
 npm run dev
 ```
-
-</details>
 
 <p align="center"><img src="docs/px3/t-17.svg" width="100%" alt="The application will be available at http://localhost:5173"/></p>
 
