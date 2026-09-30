@@ -1,11 +1,12 @@
-# Wind Turbine Simulator
-
 <p align="center"><img src="docs/flow.svg" alt="Animated Wind Turbine Sim pipeline: Terrain → Wind → Physics → Optimize → Stream → Visualize" width="100%"/></p>
 <p align="center"><sub>10-second tour: Terrain → Wind → Physics → Optimize → Stream → Visualize</sub></p>
 
-An interactive web application for simulating and optimizing wind turbine placement using computational physics and machine learning optimization techniques.
+<p align="center"><img src="docs/mc/intro.svg" width="100%" alt="An interactive web app for simulating and optimizing wind turbine placement using computational physics and optimization."/></p>
 
-## Overview
+<p align="center"><img src="docs/mc/features.svg" width="100%" alt="Key features"/></p>
+
+<a id="overview"></a>
+<h2><img src="docs/mc/h2-overview.svg" width="100%" alt="Overview"/></h2>
 
 This project provides a comprehensive platform for:
 - **Simulation**: Real-time wind turbine farm simulation with physics-based power calculations
@@ -13,7 +14,8 @@ This project provides a comprehensive platform for:
 - **Optimization**: Intelligent turbine placement algorithms to maximize energy production
 - **Analysis**: Performance metrics, power generation analysis, and efficiency tracking
 
-## Project Structure
+<a id="project-structure"></a>
+<h2><img src="docs/mc/h2-project-structure.svg" width="100%" alt="Project Structure"/></h2>
 
 ```
 wind-simulator/
@@ -56,9 +58,11 @@ wind-simulator/
 └── README.md                  # This file
 ```
 
-## Features
+<a id="features"></a>
+<h2><img src="docs/mc/h2-features.svg" width="100%" alt="Features"/></h2>
 
-### Backend Features
+<a id="backend-features"></a>
+<h3><img src="docs/mc/h3-backend-features.svg" width="100%" alt="Backend Features"/></h3>
 - **Wind Generation**: Realistic wind speed and direction field generation with turbulence
 - **Terrain Mapping**: Procedural terrain generation with elevation and slope calculations
 - **Physics Engine**: 
@@ -70,7 +74,8 @@ wind-simulator/
 - **Real-time Simulation**: Continuous simulation with configurable speed
 - **WebSocket Support**: Real-time data streaming to frontend
 
-### Frontend Features
+<a id="frontend-features"></a>
+<h3><img src="docs/mc/h3-frontend-features.svg" width="100%" alt="Frontend Features"/></h3>
 - **Interactive Visualization**: 
   - Terrain heatmap with elevation coloring
   - Wind flow visualization with directional arrows
@@ -86,22 +91,26 @@ wind-simulator/
   - Performance charts using Recharts
 - **Responsive Design**: Works on desktop and tablet devices
 
-## Technology Stack
+<a id="technology-stack"></a>
+<h2><img src="docs/mc/h2-technology-stack.svg" width="100%" alt="Technology Stack"/></h2>
 
-### Backend
+<a id="backend"></a>
+<h3><img src="docs/mc/h3-backend.svg" width="100%" alt="Backend"/></h3>
 - **Framework**: FastAPI (Python)
 - **Server**: Uvicorn
 - **Libraries**: NumPy, SciPy, Pydantic
 - **Architecture**: RESTful API with WebSocket support
 
-### Frontend
+<a id="frontend"></a>
+<h3><img src="docs/mc/h3-frontend.svg" width="100%" alt="Frontend"/></h3>
 - **Framework**: React 18
 - **Build Tool**: Vite
 - **Visualization**: Canvas 2D (Terrain & Wind), Three.js ready
 - **Charts**: Recharts
 - **HTTP Client**: Axios
 
-## Quick Start
+<a id="quick-start"></a>
+<h2><img src="docs/mc/h2-quick-start.svg" width="100%" alt="Quick Start"/></h2>
 
 **Prerequisites:** Python 3.8+, Node.js 16+
 
@@ -127,16 +136,17 @@ chmod +x setup.sh start.sh kill.sh
 | Backend  | http://localhost:8000 |
 | API Docs | http://localhost:8000/docs |
 
----
+<a id="getting-started-manual"></a>
+<h2><img src="docs/mc/h2-getting-started-manual.svg" width="100%" alt="Getting Started (Manual)"/></h2>
 
-## Getting Started (Manual)
-
-### Prerequisites
+<a id="prerequisites"></a>
+<h3><img src="docs/mc/h3-prerequisites.svg" width="100%" alt="Prerequisites"/></h3>
 - Python 3.8+
 - Node.js 16+
 - npm or yarn
 
-### Backend Setup
+<a id="backend-setup"></a>
+<h3><img src="docs/mc/h3-backend-setup.svg" width="100%" alt="Backend Setup"/></h3>
 
 1. Navigate to the backend directory:
 ```bash
@@ -163,7 +173,8 @@ The API will be available at `http://localhost:8000`
 
 API Documentation: `http://localhost:8000/docs`
 
-### Frontend Setup
+<a id="frontend-setup"></a>
+<h3><img src="docs/mc/h3-frontend-setup.svg" width="100%" alt="Frontend Setup"/></h3>
 
 1. Navigate to the frontend directory:
 ```bash
@@ -182,29 +193,35 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-## API Endpoints
+<a id="api-endpoints"></a>
+<h2><img src="docs/mc/h2-api-endpoints.svg" width="100%" alt="API Endpoints"/></h2>
 
-### Health & Status
+<a id="health--status"></a>
+<h3><img src="docs/mc/h3-health-status.svg" width="100%" alt="Health &amp; Status"/></h3>
 - `GET /health` - Health check
 - `GET /status` - Current simulation status
 
-### Simulation Control
+<a id="simulation-control"></a>
+<h3><img src="docs/mc/h3-simulation-control.svg" width="100%" alt="Simulation Control"/></h3>
 - `POST /simulation/start` - Start simulation with parameters
 - `POST /simulation/stop` - Stop simulation
 - `POST /simulation/pause` - Pause simulation
 - `POST /simulation/resume` - Resume simulation
 - `POST /simulation/reset` - Reset simulation
 
-### Data Retrieval
+<a id="data-retrieval"></a>
+<h3><img src="docs/mc/h3-data-retrieval.svg" width="100%" alt="Data Retrieval"/></h3>
 - `GET /terrain` - Get terrain elevation map
 - `GET /wind` - Get wind field data
 - `GET /turbines` - Get turbine data and performance
 - `POST /optimize` - Run placement optimization
 
-### WebSocket
+<a id="websocket"></a>
+<h3><img src="docs/mc/h3-websocket.svg" width="100%" alt="WebSocket"/></h3>
 - `WS /ws/simulation` - Real-time simulation updates
 
-## Simulation Parameters
+<a id="simulation-parameters"></a>
+<h2><img src="docs/mc/h2-simulation-parameters.svg" width="100%" alt="Simulation Parameters"/></h2>
 
 Default parameters can be customized:
 - **grid_size**: Size of simulation grid (default: 100)
@@ -213,11 +230,13 @@ Default parameters can be customized:
 - **turbulence**: Turbulence factor 0-1 (default: 0.2)
 - **rotor_diameter**: Turbine rotor diameter in meters (default: 80.0)
 
-## Physics Model
+<a id="physics-model"></a>
+<h2><img src="docs/mc/h2-physics-model.svg" width="100%" alt="Physics Model"/></h2>
 
 The simulation uses the following physics models:
 
-### Power Calculation
+<a id="power-calculation"></a>
+<h3><img src="docs/mc/h3-power-calculation.svg" width="100%" alt="Power Calculation"/></h3>
 $$P = 0.5 \times \rho \times A \times v^3 \times C_p \times \eta$$
 
 Where:
@@ -227,12 +246,14 @@ Where:
 - Cp = power coefficient (≤ 0.593 Betz limit)
 - η = drivetrain efficiency
 
-### Thrust Force
+<a id="thrust-force"></a>
+<h3><img src="docs/mc/h3-thrust-force.svg" width="100%" alt="Thrust Force"/></h3>
 $$F = 0.5 \times \rho \times A \times v^2 \times C_t$$
 
 Where Ct is the thrust coefficient.
 
-## Usage Example
+<a id="usage-example"></a>
+<h2><img src="docs/mc/h2-usage-example.svg" width="100%" alt="Usage Example"/></h2>
 
 1. **Start the Application**:
    - Run both backend and frontend servers
@@ -252,21 +273,24 @@ Where Ct is the thrust coefficient.
    - Check individual turbine performance
    - Review power output metrics
 
-## Performance Optimization
+<a id="performance-optimization"></a>
+<h2><img src="docs/mc/h2-performance-optimization.svg" width="100%" alt="Performance Optimization"/></h2>
 
 - Greedy placement algorithm: O(n × m) where n=turbines, m=grid cells
 - Real-time updates at 60 FPS
 - WebSocket for efficient data streaming
 - Terrain/wind caching to reduce computation
 
-## Known Limitations
+<a id="known-limitations"></a>
+<h2><img src="docs/mc/h2-known-limitations.svg" width="100%" alt="Known Limitations"/></h2>
 
 - 2D visualization (canvas-based) - can be enhanced with Three.js
 - Simplified wake effect modeling
 - Single optimization algorithm (could add genetic algorithm option)
 - Basic turbulence model
 
-## Future Enhancements
+<a id="future-enhancements"></a>
+<h2><img src="docs/mc/h2-future-enhancements.svg" width="100%" alt="Future Enhancements"/></h2>
 
 - [ ] Full 3D visualization with Three.js
 - [ ] Advanced wake effect modeling
@@ -277,7 +301,8 @@ Where Ct is the thrust coefficient.
 - [ ] Real weather data integration
 - [ ] Export results to PDF/CSV
 
-## Contributing
+<a id="contributing"></a>
+<h2><img src="docs/mc/h2-contributing.svg" width="100%" alt="Contributing"/></h2>
 
 This is an open-source project. Contributions are welcome! Please:
 1. Fork the repository
@@ -286,14 +311,16 @@ This is an open-source project. Contributions are welcome! Please:
 4. Push to the branch
 5. Create a Pull Request
 
-## License
+<a id="license"></a>
+<h2><img src="docs/mc/h2-license.svg" width="100%" alt="License"/></h2>
 
 MIT License - Feel free to use this project for educational and commercial purposes.
 
-## Contact
+<a id="contact"></a>
+<h2><img src="docs/mc/h2-contact.svg" width="100%" alt="Contact"/></h2>
 
 For questions or suggestions, please open an issue on the repository.
 
----
-
 **Built with** 💚 **for renewable energy enthusiasts**
+
+<p align="center"><a href="https://github.com/thanmaiashok"><img src="docs/mc/footer.svg" width="100%" alt="Built by Thanmai A, founder of FoxynAI"/></a></p>
