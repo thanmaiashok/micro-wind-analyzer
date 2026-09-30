@@ -14,6 +14,11 @@
 <a id="project-structure"></a>
 <h2><img src="docs/mc/h2-project-structure.svg" width="100%" alt="Project Structure"/></h2>
 
+<p align="center"><img src="docs/mc/c-01.svg" width="100%" alt="code: wind-simulator/ ├── backend/ # Python FastAPI backend │ ├── simulation/ # Physics simulation modules │ │ ├── wind.py # Wind field generation │ │ ├── terrain.py "/></p>
+
+<details>
+<summary>Copy as text</summary>
+
 ```
 wind-simulator/
 ├── backend/                    # Python FastAPI backend
@@ -55,6 +60,8 @@ wind-simulator/
 └── README.md                  # This file
 ```
 
+</details>
+
 <a id="features"></a>
 <h2><img src="docs/mc/h2-features.svg" width="100%" alt="Features"/></h2>
 
@@ -86,6 +93,11 @@ wind-simulator/
 
 <p align="center"><img src="docs/mc/t-06.svg" width="100%" alt="Prerequisites: Python 3.8+, Node.js 16+"/></p>
 
+<p align="center"><img src="docs/mc/c-02.svg" width="100%" alt="code: # 1. Clone and enter the repo git clone &lt;your-repo-url&gt; cd wind-simulator # 2. One-time setup (installs all deps) chmod +x setup.sh start.sh kill.sh ./setup.sh "/></p>
+
+<details>
+<summary>Copy as text</summary>
+
 ```bash
 # 1. Clone and enter the repo
 git clone <your-repo-url>
@@ -102,6 +114,8 @@ chmod +x setup.sh start.sh kill.sh
 ./kill.sh
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-07.svg" width="100%" alt="Service | URL Frontend | http://localhost:5173 Backend | http://localhost:8000 API Docs | http://localhost:8000/docs"/></p>
 
 <a id="getting-started-manual"></a>
@@ -117,28 +131,56 @@ chmod +x setup.sh start.sh kill.sh
 
 <p align="center"><img src="docs/mc/t-09.svg" width="100%" alt="Navigate to the backend directory:"/></p>
 
+<p align="center"><img src="docs/mc/c-03.svg" width="100%" alt="code: cd backend "/></p>
+
+<details>
+<summary>Copy as text</summary>
+
 ```bash
 cd backend
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-10.svg" width="100%" alt="Create a Python virtual environment:"/></p>
+
+<p align="center"><img src="docs/mc/c-04.svg" width="100%" alt="code: python3 -m venv ../.venv source ../.venv/bin/activate "/></p>
+
+<details>
+<summary>Copy as text</summary>
 
 ```bash
 python3 -m venv ../.venv
 source ../.venv/bin/activate
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-11.svg" width="100%" alt="Install dependencies:"/></p>
+
+<p align="center"><img src="docs/mc/c-05.svg" width="100%" alt="code: pip install -r requirements.txt "/></p>
+
+<details>
+<summary>Copy as text</summary>
 
 ```bash
 pip install -r requirements.txt
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-12.svg" width="100%" alt="Run the server:"/></p>
+
+<p align="center"><img src="docs/mc/c-06.svg" width="100%" alt="code: python main.py "/></p>
+
+<details>
+<summary>Copy as text</summary>
 
 ```bash
 python main.py
 ```
+
+</details>
 
 <p align="center"><img src="docs/mc/t-13.svg" width="100%" alt="The API will be available at http://localhost:8000 API Documentation: http://localhost:8000/docs"/></p>
 
@@ -147,21 +189,42 @@ python main.py
 
 <p align="center"><img src="docs/mc/t-14.svg" width="100%" alt="Navigate to the frontend directory:"/></p>
 
+<p align="center"><img src="docs/mc/c-07.svg" width="100%" alt="code: cd frontend "/></p>
+
+<details>
+<summary>Copy as text</summary>
+
 ```bash
 cd frontend
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-15.svg" width="100%" alt="Install dependencies:"/></p>
+
+<p align="center"><img src="docs/mc/c-08.svg" width="100%" alt="code: npm install "/></p>
+
+<details>
+<summary>Copy as text</summary>
 
 ```bash
 npm install
 ```
 
+</details>
+
 <p align="center"><img src="docs/mc/t-16.svg" width="100%" alt="Run the development server:"/></p>
+
+<p align="center"><img src="docs/mc/c-09.svg" width="100%" alt="code: npm run dev "/></p>
+
+<details>
+<summary>Copy as text</summary>
 
 ```bash
 npm run dev
 ```
+
+</details>
 
 <p align="center"><img src="docs/mc/t-17.svg" width="100%" alt="The application will be available at http://localhost:5173"/></p>
 
